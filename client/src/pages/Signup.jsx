@@ -2,7 +2,7 @@ import { Alert, Button, Label, Spinner, TextInput } from "flowbite-react";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-export default function Signup() {
+export default function SignUp() {
   const [formData, setFormData] = useState({});
   const [errorMessage, setErrorMessage] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -49,7 +49,7 @@ export default function Signup() {
           </Link>
           <p className="text-sm mt-5">
             Test project before actual one. You can sign up with your email and
-            password or with google
+            password
           </p>
         </div>
         {/*Right*/}
@@ -95,7 +95,7 @@ export default function Signup() {
             </Button>
           </form>
           <div className="flex gap-2 text-sm mt-5">
-            <span>Have a account?</span>
+            <span>Have an account?</span>
             <Link to="/sign-in" className="text-blue-600 ">
               Sign in
             </Link>
