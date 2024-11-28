@@ -32,7 +32,7 @@ export default function Header() {
       <Button className="w-12 h-10 lg:hidden" color="indigo" pill>
         <AiOutlineSearch />
       </Button>
-      <div className="flex gap-2 md:order-2">
+      <div className="flex gap-2 md:order-2 cursor-pointer">
         <Button
           className="w-12 h-10 hidden sm:inline"
           color="purple"
